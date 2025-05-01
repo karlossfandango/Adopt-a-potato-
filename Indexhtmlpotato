@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Daily Potato</title>
+  <style>
+    body {
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      background: #fff8dc;
+      color: #333;
+      text-align: center;
+      padding: 2rem;
+    }
+    .potato-img {
+      width: 250px;
+      height: auto;
+      border-radius: 12px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    }
+    form {
+      margin-top: 2rem;
+      max-width: 500px;
+      margin-left: auto;
+      margin-right: auto;
+      background: #f9f9f9;
+      padding: 1.5rem;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    input, textarea {
+      width: 100%;
+      padding: 0.75rem;
+      margin: 0.5rem 0;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+    }
+    button {
+      background-color: #ffcc00;
+      border: none;
+      padding: 0.75rem 1.5rem;
+      border-radius: 6px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #ffaa00;
+    }
+  </style>
+</head>
+<body>
+  <h1>Meet Your Daily Potato</h1>
+  <h2>This is Gerald</h2>
+  <img class="potato-img" src="https://upload.wikimedia.org/wikipedia/commons/6/6f/Patates.jpg" alt="Gerald the Potato">
+  <p>Gerald once auditioned to be an extra in a mashed potato commercial, but he got stage fright and rolled off the set. He enjoys quiet evenings and pretending he's a turnip to confuse the others.</p>
+
+  <h3>Apply to Adopt Gerald</h3>
+  <p><strong>Warning:</strong> Gerald only responds to the funniest applications.</p>
+  <form action="https://formsubmit.co/karlossfandango@gmail.com" method="POST">
+    <input type="hidden" name="_subject" value="Gerald Adoption Application">
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="email" name="email" placeholder="Your Email" required>
+    <textarea name="message" rows="6" placeholder="Why are YOU the chosen one to raise Gerald? (Make it ridiculous!)" required></textarea>
+    <button type="submit">Submit Your Application</button>
+  </form>
+</body>
+</html>
